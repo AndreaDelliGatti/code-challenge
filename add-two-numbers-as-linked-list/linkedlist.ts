@@ -14,7 +14,7 @@ export class LinkedList {
         this.size = 0;
     }
 
-    public addNode(value: number) {
+    public add(value: number) {
         let node = {
             value: value,
             next: null

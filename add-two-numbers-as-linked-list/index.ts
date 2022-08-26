@@ -18,21 +18,21 @@ function addTwoNumbers(l1: LinkedList, l2: LinkedList): LinkedList {
     let sum = (n1 + n2).toString().split('').reverse().join('');
     
     for(let i = 0; i < sum.length; i++)
-        result.addNode(parseInt(sum[i]));
+        result.add(parseInt(sum[i]));
 
     return result;
 }
 
 function start() {
     let l1 = new LinkedList();
-    l1.addNode(2);
-    l1.addNode(4);
-    l1.addNode(3);
+    l1.add(2);
+    l1.add(4);
+    l1.add(3);
 
     let l2 = new LinkedList();
-    l2.addNode(5);
-    l2.addNode(6);
-    l2.addNode(4);
+    l2.add(5);
+    l2.add(6);
+    l2.add(4);
 
     let res = addTwoNumbers(l1, l2);
     res.print();
