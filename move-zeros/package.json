@@ -1,5 +1,5 @@
 {
-  "name": "move-zeros",
+  "name": "@andreadelligatti/move-zeros",
   "version": "1.0.0",
   "description": "Hi, here's your problem today. This problem was recently asked by Facebook:",
   "main": "index.js",
