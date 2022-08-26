@@ -3,8 +3,8 @@ function balancedParentheses(str: string): boolean {
     let par = 0;
     let square = 0;
 
-    for(let i = 0; i < str.length; i++){
-        switch(str[i]){
+    for (let i = 0; i < str.length; i++) {
+        switch (str[i]) {
             case "(": par += 1; break;
             case ")": par -= 1; break;
             case "[": square += 1; break;
