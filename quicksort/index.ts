@@ -19,16 +19,23 @@ function partition(array: number[], low: number, high: number): number {
     return i + 1;
 }
 
-function quickSort(array: number[], low: number, high: number): number[] {
+function quickSort(array: number[], low: number, high: number) {
     if (low < high) {
         let pivot = partition(array, low, high);
 
-        array = quickSort(array, low, pivot - 1);
-        array = quickSort(array, pivot + 1, high);
+        quickSort(array, low, pivot - 1);
+        quickSort(array, pivot + 1, high);
     }
+}
 
+function generateArray(length: number): number[] {
+    let array = new Array(length);
+    for(let i = 0; i < length; i++)
+        array[i] = Math.floor(Math.random() * 100);
     return array;
 }
 
-let array = [10, 80, 30, 90, 40, 50, 70];
-console.log(quickSort(array, 0, array.length - 1));
+let array = generateArray(10);
+console.log(array);
+quickSort(array, 0, array.length - 1);
+console.log(array);
