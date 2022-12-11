@@ -1,7 +1,6 @@
 {
-  "name": "witness-of-tall-people",
+  "name": "@andreadelligatti/witness-of-tall-people",
   "version": "1.0.0",
-  "description": "Hi, here's your problem today. This problem was recently asked by Google:",
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev index.ts"

@@ -1,7 +1,6 @@
 {
   "name": "@andreadelligatti/find-k-largest",
   "version": "1.0.0",
-  "description": "Hi, here's your problem today. This problem was recently asked by Facebook:",
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev index.ts"

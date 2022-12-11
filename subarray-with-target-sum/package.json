@@ -1,7 +1,6 @@
 {
-  "name": "subarray-with-target-sum",
+  "name": "@andreadelligatti/subarray-with-target-sum",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev index.ts"
