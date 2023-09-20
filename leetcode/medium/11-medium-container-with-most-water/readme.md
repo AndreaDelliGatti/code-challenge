@@ -16,6 +16,6 @@ Input: height = [1,1]
 Output: 1
 
 Constraints:
-n == height.length
-2 <= n <= 10^5
-0 <= height[i] <= 10^4
+- n == height.length
+- 2 <= n <= 10^5
+- 0 <= height[i] <= 10^4

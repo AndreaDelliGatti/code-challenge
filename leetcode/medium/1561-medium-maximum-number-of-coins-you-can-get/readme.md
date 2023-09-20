@@ -26,6 +26,6 @@ Input: piles = [9,8,7,6,5,1,2,3,4]
 Output: 18
 
 Constraints:
-3 <= piles.length <= 10^5
-piles.length % 3 == 0
-1 <= piles[i] <= 10^4
+- 3 <= piles.length <= 10^5
+- piles.length % 3 == 0
+- 1 <= piles[i] <= 10^4

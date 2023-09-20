@@ -54,5 +54,5 @@ The parsed integer is 4193.
 Since 4193 is in the range [-2^31, 2^31 - 1], the final result is 4193.
 
 Constraints:
-0 <= s.length <= 200
-s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
+- 0 <= s.length <= 200
+- s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.

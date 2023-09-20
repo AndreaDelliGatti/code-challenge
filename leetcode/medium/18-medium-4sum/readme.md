@@ -14,6 +14,6 @@ Input: nums = [2,2,2,2,2], target = 8
 Output: [[2,2,2,2]]
 
 Constraints:
-1 <= nums.length <= 200
--10^9 <= nums[i] <= 10^9
--10^9 <= target <= 10^9
+- 1 <= nums.length <= 200
+- -10^9 <= nums[i] <= 10^9
+- -10^9 <= target <= 10^9
