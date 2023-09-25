@@ -14,6 +14,7 @@ function maxProfit2(prices: number[]): number {
     let left = 0;
     let right = 1;
     let max = 0;
+    
     while (right < prices.length) {
         if (prices[left] < prices[right]) {
             let profit = prices[right] - prices[left];
@@ -22,7 +23,7 @@ function maxProfit2(prices: number[]): number {
         else
             left = right;
 
-        right++;
+        right += 1;
     }
     return max;
 }
